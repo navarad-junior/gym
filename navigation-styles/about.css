@@ -1,0 +1,103 @@
+/* DEFAULT STYLE */
+section {
+    padding: 50px 0;
+}
+
+/* NAVBAR STYLES */
+.navbar {
+    background-color: turquoise;
+}
+
+
+.text-red {
+    color: red;
+    font-weight: 900;
+}
+
+.text-red:hover {
+    opacity: 0.7;
+}
+
+.nav-item a {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.nav-item a:hover {
+   background-color: black;
+   color: white;
+   border-radius: 7px;
+}
+
+.last-link {
+    border-radius: 7px;
+    background-color: black;
+    color: white
+}
+
+.last-link:hover {
+   color: white;
+}
+
+ul li a{
+    margin: 7px;
+}
+
+/* ABOUT US TWO COLUMN SECTION STYLES */
+.img-rounded {
+    border-radius: 7px;
+}
+
+a.btn-sm {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a.btn-sm:hover {
+    cursor: pointer;
+}
+
+/* js dynamic class style for the two column section see more... button */
+a.btn-sm.hide {
+    display: none;
+}
+
+/*  FOOTER STYLES */
+footer {
+    height: 100%;
+    background-color: black;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer div p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div p a:hover {
+    color: white;
+}
+
+footer div img {
+    border-radius: 5px;
+}
+
+footer div h5 {
+    color: white;
+}
+
+footer div hr {
+    color: #d5d5d5;
+}
+
+/* MEDIA QUERY STYLES */
+@media(max-width: 768px) {
+    .img-rounded {
+        width: 100%;
+    }
+}
+
+
+

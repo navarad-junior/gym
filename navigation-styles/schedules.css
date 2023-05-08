@@ -1,0 +1,107 @@
+/* DEFAULT STYLE */
+section {
+    padding: 25px 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* NAVBAR STYLES */
+.navbar {
+    background-color: turquoise;
+}
+
+.text-red {
+    color: red;
+    font-weight: 900;
+}
+
+.text-red:hover {
+    opacity: 0.7;
+}
+
+.nav-item a {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.nav-item a:hover {
+   background-color: black;
+   color: white;
+   border-radius: 7px;
+}
+
+.last-link {
+    border-radius: 7px;
+    background-color: black;
+    color: white
+}
+
+.last-link:hover {
+   color: white;
+}
+
+ul li a{
+    margin: 7px;
+}
+
+/*  THE SCHEDULES COLUMN STYLES */
+h1 {
+    text-decoration: underline;
+    color: #af0404;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-center h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.fw-bold {
+    font-weight: bolder;
+}
+
+
+/*  FOOTER STYLES */
+footer {
+    height: 100%;
+    background-color: black;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer div p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div p a:hover {
+    color: white;
+}
+
+footer div img {
+    border-radius: 5px;
+}
+
+footer div h5 {
+    color: white;
+}
+
+footer div hr {
+    color: #d5d5d5;
+}
+
+@media(max-width: 992px) {
+    .col-lg-4 img {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 456px) {
+    .text-center h2 {
+        border-bottom: 1px dotted white;
+    }
+}
+

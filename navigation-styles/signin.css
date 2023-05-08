@@ -1,0 +1,112 @@
+/* DEFAULT STYLE */
+section {
+    padding: 25px 0;
+}
+
+body {
+    background-color: turquoise;
+}
+
+/* NAVBAR STYLES */
+.navbar {
+    background-color: turquoise;
+}
+
+.text-red {
+    color: red;
+    font-weight: 900;
+}
+
+.text-red:hover {
+    opacity: 0.7;
+}
+
+.nav-item a {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.nav-item a:hover {
+   background-color: black;
+   color: white;
+   border-radius: 7px;
+}
+
+.last-link {
+    border-radius: 7px;
+    background-color: black;
+    color: white
+}
+
+.last-link:hover {
+   color: white;
+}
+
+ul li a{
+    margin: 7px;
+}
+
+/*  FORM STYLES */
+form label {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.col-8 form input {
+    border: 2px solid black;
+}
+
+div.col-8 form button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+div.col-8 form button:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+
+/*  FOOTER STYLES */
+footer {
+    height: 100%;
+    background-color: black;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer div p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div p a:hover {
+    color: white;
+}
+
+footer div img {
+    border-radius: 5px;
+}
+
+footer div h5 {
+    color: white;
+}
+
+footer div hr {
+    color: #d5d5d5;
+}
+
+@media(max-width: 456px) {
+    div.col-8 form button {
+        padding: 5px;
+    }
+
+    div.col-8 form input {
+        height: 30px;
+        width: 100%;
+    }
+}

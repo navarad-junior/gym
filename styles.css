@@ -1,0 +1,266 @@
+/* DEFAULT STYLE */
+section {
+    padding: 50px 0;
+}
+
+/* NAVBAR STYLES */
+.navbar {
+    background-color: turquoise;
+}
+
+
+.text-red {
+    color: red;
+    font-weight: 900;
+}
+
+.text-red:hover {
+    opacity: 0.7;
+}
+
+.nav-item a {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.nav-item a:hover {
+   background-color: black;
+   color: white;
+   border-radius: 7px;
+}
+
+.last-link {
+    border-radius: 7px;
+    background-color: black;
+    color: white
+}
+
+.last-link:hover {
+   color: white;
+}
+
+ul li a{
+    margin: 7px;
+}
+
+
+/* STYLES FOR FORM AND THE INTRO-IMAGE */
+
+.login {
+    width: 150px;
+}
+
+.form-control {
+    border: 2px solid grey;
+}
+
+.img-rounded {
+    border-radius: 30px;
+}
+
+/*THREE COLUMN CARD SECTION STYLES */
+a.card-link-container {
+    text-decoration: none;
+    color: black;
+}
+
+a.card-link-container div.card:hover {
+    opacity: 0.8;
+    box-shadow: 3px 3px 6px;
+    transition: 1s;
+}
+
+/* SOCIAL LINKS SECTION STYLES */
+section.social-container {
+    background-color: #3f3f3f;
+}
+
+.bi-facebook {
+    font-size: 130px;
+    color: blue;
+}
+
+.bi-twitter{
+    font-size: 130px;
+    color: lightseagreen;
+}
+
+
+.bi-youtube{
+    font-size: 130px;
+    color: red;
+}
+
+.bi-facebook{
+    margin-right: 180px;
+}
+
+.bi-youtube {
+    margin-left: 180px;
+}
+
+.bi-facebook:hover {
+    box-shadow: 3px 3px 10px white;
+    border-radius: 7px;
+    opacity: 0.6;
+}
+
+.bi-twitter:hover {
+    box-shadow: 3px 3px 10px white;
+    border-radius: 7px;
+    opacity: 0.6;
+}
+
+.bi-youtube:hover {
+    box-shadow: 3px 3px 10px white;
+    border-radius: 7px;
+    opacity: 0.6;
+}
+
+/* BACKGROUND IMAGE SECTION STYLES */
+.background {
+    background-image: url(./assets/two-men.jpg);
+    height: 100%;
+    opacity: 0.8;
+}
+
+h2.inner-header {
+    color: white;
+    padding-top: 30px;
+}
+
+hr.background-stroke {
+    display: none;
+}
+
+/*  FOOTER STYLES */
+footer {
+    height: 100%;
+    background-color: black;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer div p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div p a:hover {
+    color: white;
+}
+
+footer div img {
+    border-radius: 5px;
+}
+
+footer div h5 {
+    color: white;
+}
+
+footer div hr {
+    color: #d5d5d5;
+}
+
+
+
+
+
+/* MEDIA QUERY STYLES */
+@media(max-width: 1050px) {
+    .small-img {
+        margin-top: 130px;
+    }
+}
+@media(max-width: 940px) {
+    .lead {
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 897px) {
+    .img-rounded {
+        margin-top: 70px;
+    }
+}
+
+@media(max-width: 867px) {
+    .bi-facebook{
+        margin-right: 60px;
+    }
+    
+    .bi-youtube {
+        margin-left: 60px;
+    }
+}
+
+@media(max-width: 768px) {
+    .small-img {
+        width: 100%;
+    }
+
+    hr.background-stroke {
+        display: block;
+        border: 1px dashed white;
+    }
+
+    .philosophy-text-column {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 627px) {
+    .bi-facebook {
+        font-size: 80px;
+        margin-right: 30px;
+    }
+
+    .bi-twitter {
+        font-size: 80px;
+    }
+    
+    .bi-youtube {
+        font-size: 80px;
+        margin-left: 30px;
+    }
+
+    footer div hr {
+        color: #d5d5d5;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+
+@media(max-width: 456px) {
+    .huge-paragraph {
+        margin-right: 21px;
+        margin-left: 21px;
+    }
+
+    .big-btn {
+        padding: 5px;
+    }
+
+    
+}
+
+/* Min width 456px means, 456px up */
+@media(min-width: 456px) {
+    .huge-paragraph {
+        margin-right: 41px;
+        margin-left: 41px;
+    }
+}
+
+/* JAVASCRIPT EFFECT STYLES */
+form.myForm {
+    display: none;
+}
+
+div.col-md-6.dynamic-head h2 {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
